@@ -19,16 +19,6 @@ LeftViewBst ()
 		left=right=null;
 	}
 	}
-	static void inorder(Node root)
-	{
-		if(root!=null)
-		{
-			inorder(root.left);
-			System.out.println(root.data);
-			inorder(root.right);
-		}
-	return ;
-	}
 
 	static void insert(int data)
 	{
