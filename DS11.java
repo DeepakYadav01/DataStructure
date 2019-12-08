@@ -1,7 +1,5 @@
 import java.util.*;
 
-import BST.Node;
-
 public class LeftViewBst {
 
 static Node root;
@@ -10,8 +8,6 @@ LeftViewBst ()
 	{
 		root=null;
 	}
-
-
 
 	static class Node
 	{
